@@ -69,11 +69,11 @@ this.$headway.onReady.then(() => {
 
 **Push API**
 
-`$headway.push('method', 'arg1', 'arg2', ...)`
+`$headway.push(['method', 'arg1', 'arg2', ...])`
 
 ```js
 // in your component scope
-this.$headway.push('toggle');
+this.$headway.push(['toggle']);
 ```
 
 ### Directives

@@ -35,8 +35,8 @@ export default {
     resetSeenCountAlt() {
       // Alternative
       // Async safe — Push
-      this.$headway.push('setState', { seen: [], read: [] });
-      this.$headway.push('init');
+      this.$headway.push(['setState', { seen: [], read: [] }]);
+      this.$headway.push(['init']);
     },
     resetSeenCountUnsafe() {
       // Async unsafe / Not recommended
