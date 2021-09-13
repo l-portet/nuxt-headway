@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-headway",
+  "version": "0.0.0",
+  "description": "Integrate Headway into your Vue/Nuxt app ✌️",
+  "repository": "l-portet/nuxt-headway",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lucas Portet <lucasportet@gmail.com>"
+    }
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/module.js",
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue .",
+    "release": "npm run test && standard-version && git push --follow-tags && npm publish",
+    "test": "npm run lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "babel-eslint": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
