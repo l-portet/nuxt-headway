@@ -1,6 +1,6 @@
 {
   "name": "nuxt-headway",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Integrate Headway into your Vue/Nuxt app ✌️",
   "repository": "l-portet/nuxt-headway",
   "license": "MIT",
