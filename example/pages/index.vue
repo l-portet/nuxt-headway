@@ -16,7 +16,7 @@
       </button>
     </div>
 
-    <!-- <a href="#">Docs</a> -->
+    <a href="https://github.com/l-portet/nuxt-headway" target="_blank">Github</a>
   </main>
 </template>
 
@@ -100,6 +100,8 @@ button {
 }
 
 a {
+  position: fixed;
+  bottom: 10px;
   color: #4f46e5;
   text-decoration: none;
 }
