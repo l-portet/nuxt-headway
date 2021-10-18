@@ -90,14 +90,14 @@ The node that will contain the widget. Related to `selector` in the config.
 </template>
 ```
 
-**v-headway-target**
+**v-headway-trigger**
 
 The node(s) that will trigger the widget. Related to `trigger` in the config.
 
 ```html
 <template>
   <!-- Clicking on this will open the widget -->
-  <div v-headway-target></div>
+  <div v-headway-trigger></div>
 </template>
 ```
 
